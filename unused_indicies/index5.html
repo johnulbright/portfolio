@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Ulbright's Portfolio5</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy='scroll' data-target='.navbar' data-offset='50'>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <!--   <a class="navbar-brand" href="#">Navbar</a>-->
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link " href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link " href="#other">Other Interests</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Other Interests</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#geogebra">GeoGebra</a>
+                    <a class="dropdown-item" href="#woodworking">Woodworking</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Landing-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    <div class="container" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <!--About Me-->
+        <div class="row" id="about">
+            <div class="col">
+                <h1>About me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <p>This is where I'll put some biography stuff</p>
+                <p>And I'll include a link to my resume.</p>
+            </div>
+            <div class="col-5">
+
+            </div>
+        </div>
+        <!--Projects-->
+        <div class="row" id="projects">
+            <div class="col">
+                <h1>Projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <p>CSS Creature</p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">Static Layout</div>
+            <div class="col-1"></div>
+            <div class="col-3"></div>
+        </div>
+
+
+    </div>
+    <!--GeoGebra-->
+    <div class="container-fluid" style="padding: 20px;">
+        <h1 id="geogebra">GeoGebra <img src="../assets/geogebra_logo.png" width="65px"></h1>
+        <div class="row">
+            <p style="text-align:center">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aboutgeogebra" id="ggb" >
+                    About GeoGebra
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addingfractions" id="notggb" >
+                    Adding Fractions - Visuals
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#brokenclock" id="notggb" >
+                    Broken Clock
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cashregister" id="notggb" >
+                    Cash Register
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#close" id="notggb" >
+                    Close to 1000
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#foldabox" id="notggb" >
+                    Fold a Box
+                </button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fractionguesser" id="notggb" >
+                    Fraction Guesser
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#make" id="notggb" >
+                    Make a Linear Function
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#multiplyingfractions" id="notggb" >
+                    Multiplying Fractions
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#whatsthenumber" id="notggb" >
+                        What's the Number?
+                        </button>
+                        
+
+            </p>
+
+        </div>
+
+        <div class="modal fade" id="aboutgeogebra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutgeogebra">About GeoGebra</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><a href="https://www.geogebra.org/">GeoGebra</a> is a dynamic mathematics program with broad international usage in math classrooms. There are many ways of using it, one of which is to author interactive applets for teachers to use with their students. I have been creating and sharing these with teachers from around the world since 2013. </p>
+                        <p>See <a href="https://geogebra.wayne.k12.in.us/">my website of GeoGebra resources</a> for my entire library of applets, along with grade-level/content alignment and teaching notes.  The collection of applets available here is a quick sample of some of my more popular work. Each of these applets has been used by teachers and students over 10,000 times.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="addingfractions" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1037px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addingfractions">Adding Fractions - Visuals</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Enter any two fractions to see their sum. Any mixed numbers must be entered as improper
+                            fractions.
+                        </p>
+                        <iframe scrolling="no" title="Adding Fractions - Visual"
+                            src="https://www.geogebra.org/material/iframe/id/w3UQKuRN/width/1002/height/497/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false"
+                            width="1002px" height="497px" style="border:0px" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="brokenclock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1235px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="brokenclock">Broken Clock</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>What time is it? Take successive guesses and click "More information" to put the pieces back
+                            on the
+                            clock.</p>
+                        <iframe scrolling="no" title="Broken Clock (minutes on fives)"
+                            src="https://www.geogebra.org/material/iframe/id/aeavjewf/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false"
+                            width="1200px" height="550px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cashregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1374px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cashregister">Cash Register</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Click "Start" then drag the coins onto the cash register to match the price of the item.</p>
+                        <iframe scrolling="no" title="Cash Register"
+                            src="https://www.geogebra.org/material/iframe/id/XrcJzWQV/width/1339/height/677/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="1339px" height="677px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="close" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:675px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="close">Close to 1000</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Arrange the digits to make the sum as close to 1000 as possible.</p>
+                        <iframe scrolling="no" title="Close to 1000"
+                            src="https://www.geogebra.org/material/iframe/id/gFeWbv8f/width/640/height/474/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="640px" height="474px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="foldabox" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1271px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="foldabox">Fold a Box</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Adjust the dimesions of the box and the size of the corner squares. What patterns do you
+                            notice in
+                            the volume of the box?</p>
+                        <iframe scrolling="no" title="Fold a Box"
+                            src="https://www.geogebra.org/material/iframe/id/k4h6nbsu/width/1236/height/636/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false"
+                            width="1236px" height="636px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fractionguesser" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1034px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="fractionguesser">Fraction Guesser</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>What fraction of the rectangle is shaded red?</p>
+                        <iframe scrolling="no" title="Fraction Guesser"
+                            src="https://www.geogebra.org/material/iframe/id/fkwdnwpd/width/999/height/565/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="999px" height="565px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="make" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1028px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="make">Make a Linear Function</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Drag the digits to the table in a way that makes a linear function.</p>
+                        <iframe scrolling="no" title="Make a Linear Function"
+                            src="https://www.geogebra.org/material/iframe/id/fSyAKM6y/width/993/height/516/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="993px" height="516px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="multiplyingfractions" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1035px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="multiplyingfractions">Multiplying Fractions</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Enter any to proper fractions to see them multiplied using an array approach.</p> <iframe
+                            scrolling="no" title="Multiply two proper fractions using an array approach."
+                            src="https://www.geogebra.org/material/iframe/id/sFjPaTMn/width/1000/height/513/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="1000px" height="513px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="whatsthenumber" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="width:1374px">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="whatsthenumber">What's the Number</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A random number will be shown on the number line. Take successive guesses and click the "More
+                            info"
+                            button to see some helpful details.</p>
+                        <iframe scrolling="no" title="What's the number?"
+                            src="https://www.geogebra.org/material/iframe/id/Af3APf3g/width/1339/height/561/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                            width="1339px" height="561px" style="border:0px;" allowfullscreen> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Woodworking-->
+    <h1 id="woodworking">Woodworking</h1>
+    <p> You better get your coat out, this is going to be a cold painting. Let's just drop a little Evergreen right
+        here.
+        This is a happy place, little squirrels live here and play. We might as well make some Almighty mountains today
+        as
+        well, what the heck. This is your world, whatever makes you happy you can put in it. Go crazy. These things
+        happen
+        automatically. All you have to do is just let them happen. You better get your coat out, this is going to be a
+        cold
+        painting. Let's just drop a little Evergreen right here. This is a happy place, little squirrels live here and
+        play.
+        We might as well make some Almighty mountains today as well, what the heck. This is your world, whatever makes
+        you
+        happy you can put in it. Go crazy. These things happen automatically. All you have to do is just let them
+        happen.
+        You better get your coat out, this is going to be a cold painting. Let's just drop a little Evergreen right
+        here.
+        This is a happy place, little squirrels live here and play. We might as well make some Almighty mountains today
+        as
+        well, what the heck. This is your world, whatever makes you happy you can put in it. Go crazy. These things
+        happen
+        automatically. All you have to do is just let them happen. You better get your coat out, this is going to be a
+        cold
+        painting. Let's just drop a little Evergreen right here. This is a happy place, little squirrels live here and
+        play.
+        We might as well make some Almighty mountains today as well, what the heck. This is your world, whatever makes
+        you
+        happy you can put in it. Go crazy. These things happen automatically. All you have to do is just let them
+        happen.
+        You better get your coat out, this is going to be a cold painting. Let's just drop a little Evergreen right
+        here.
+        This is a happy place, little squirrels live here and play. We might as well make some Almighty mountains today
+        as
+        well, what the heck. This is your world, whatever makes you happy you can put in it. Go crazy. These things
+        happen
+        automatically. All you have to do is just let them happen.</p>
+    <!--Contact-->
+    <h1 id="contact">Contact</h1>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+    <form action="https://formspree.io/f/mgeplvbd" method="POST">
+        <label>
+            Your email:
+            <input type="text" name="_replyto">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+
+        <!-- your other form fields go here -->
+
+        <button type="submit">Send</button>
+    </form>
+    </div>
+    <!--Footer-->
+
+
+    <!-- BOOTSTRAP SCRIPTS -->
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,237 @@
+body {
+  font-family: 'Roboto Mono', 'Courier New',monospace;
+    position: relative;
+    
+  }
+
+.circle{
+  position: relative;  
+  width:10vw;
+  height:10vw;
+  border-radius: 50%;  
+}
+.circle .text{
+  visibility: hidden;
+  position: relative;
+  left:2vw;
+  top:3.5vw;
+}
+
+.circle:hover .text{
+  visibility:visible;
+}
+#circle3 .text{
+  visibility: hidden;
+  position: relative;
+  left:3.2vw;
+  top:4.5vw;
+}
+
+#circle3:hover .text{
+  visibility:visible;
+}
+
+#circle1{
+  background-color: rgba(0,128,128,.3);
+  z-index:1;
+}
+
+#circle2{
+  top:-10vw;
+  right:-8vw;
+  background-color: rgba(100,100,100,.3);
+  z-index:2;
+}
+
+#circle3{
+  top:-15vw;
+  right:-4vw;
+  background-color: rgba(0,128,128,.5);
+  z-index:3;
+}
+
+#circle4{
+  top:-30vw;
+  right:-24vw;
+  background-color: rgba(128,128,128,.5);
+  z-index:4;
+}
+.jumbotron{
+  height:35vh;
+}
+.jumbotron2{
+  background-color: #e9ecef;
+  margin-top:-35px;
+  width:100%;
+  height:5vw;
+}
+.jumbotron h3{
+  padding-top:3vh;
+  font-size: 6.5vw;
+}
+.nav-item{
+  margin-left:20px;
+}
+
+#about{
+  height: 80vh;
+}
+#other .accordian{
+ height:80vw;
+}
+.carousel-inner{
+  border-radius: 10px;
+}
+
+#projects .card{
+  width:300px;
+  height:460px;
+  border-radius: 15px;
+  border:2px solid black;
+  text-decoration: none;
+  color:black;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+#projects .card:hover{
+  border:2px solid teal;
+  
+}
+
+h1{
+  text-align: left;
+  font-size: 50px;
+  margin-top:100px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  color:white;
+}
+
+h2:hover{
+  text-emphasis: none;
+  text-decoration: none;
+  text-transform: none;
+  
+}
+
+
+#ggb{
+  margin:15px;
+  background-color:rgb(80, 80, 180);
+  border-color:rgb(80, 80, 180);
+  width:300px;
+  height:100px;
+  font-size: x-large;
+
+}
+#ggb:hover{
+  background-color:rgb(49, 70, 94);
+  border-color:rgb(49, 70, 94);
+}
+#notggb{
+  margin:auto;
+  margin-bottom:15px;
+  margin-top:15px;
+  background-color:lightgrey;
+  border:2px solid black;
+  width:300px;
+  height:100px;
+  font-size: x-large;
+  color:teal;
+  ;
+  
+}
+
+
+#notggb:hover{
+  background-color: teal;
+  color:lightgrey;
+  border-color: lightgrey;
+}
+
+.modal-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  text-emphasis: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+a:hover{
+  text-emphasis: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+label{
+  font-size: 20px;
+  width:80%;
+  margin:auto;
+}
+
+input{
+  color:teal;
+  width:100%;
+  border-radius: 5px;
+  border:2px solid #e9ecef;
+  background-color: #e9ecef;
+}
+textarea{
+  color:teal;
+  width:100%;
+  border-radius: 5px;
+  border:none;
+  margin-top:30px;
+  margin-bottom:30px;
+  background-color: #e9ecef;
+  border:2px solid #e9ecef;
+
+}
+
+#sender{
+  border-radius: 5px;
+  border:2px solid teal;
+  margin:auto;
+  width:200px;
+  height:45px;
+  background-color: rgba(0,128,128,1);
+  font-size: 20px;
+  color:#e9ecef;
+}
+#sender:hover{
+  background-color: #e9ecef;;
+  color:teal
+}
+
+::placeholder{
+  color:teal;
+}
+
+input:focus {
+  outline: none ;
+  border:2px solid teal;
+}
+
+
+textarea:focus {
+  outline: none ;
+  border:2px solid teal;
+}
+
+.carousel h5{
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+

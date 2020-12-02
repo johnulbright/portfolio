@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Ulbright's Portfolio6</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy='scroll' data-target='.navbar' data-offset='50'>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link " href="#projects">Projects</a></li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Other Interests</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#geogebra">GeoGebra</a>
+                    <a class="dropdown-item" href="#woodworking">Woodworking</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--header-->
+    <div class="jumbotron jumbotron-fluid" style="width:100%">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="display-4">John Ulbright</h1>
+                </div>
+                <div class='col'>
+
+                    <div class="circle" id="circle1">
+                        <p class="text">coding</p>
+                    </div>
+                    <div class="circle" id="circle2">
+                        <p class="text">learning</p>
+                    </div>
+                    <div class="circle" id="circle3">
+                        <p class="text">teaching</p>
+                    </div>
+                    <div class="circle" id="circle4">
+                        <p class="text">math</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" data-spy="scroll" data-target=".navbar" data-offset="50" style="width: 100%;">
+
+        <!--About Me-->
+        <div class="container-fluid" id="about">
+            <div class="container">
+                <h1>About</h1>
+                <div class="container" style="background-color: rgba(0,128,128,.3); border-radius: 15px;">
+
+
+
+                    <div class="row">
+                        <div class="col-7">
+                            <p>This is where I'll put some biography stuff</p>
+                            <p>And I'll include a link to my resume.</p>
+                        </div>
+                        <div class="col-5">
+                            <p>I'll put a picture here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Projects-->
+        <div class="container-fluid" id="projects">
+            <div class="container">
+                <h1>Projects</h1>
+                <div class="container" style="background-color: rgba(100,100,100,.3); border-radius: 15px;padding:20px">
+                    <div class="row" style="margin: auto;">
+                        <!--CSS CREATURE-->
+                        <div class="col">
+                            <a href="https://codepen.io/fixa/pen/bGeQEoM"><div class="card" style="text-decoration: none;">
+                                <img src="../assets/css_creature.gif" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">CSS Creature</h5>
+                                  <p class="card-text">This was my first time using CSS to style HTML elements.  Click on the image to see it in CodePen.</p>
+                                </div>
+                              </div>
+                            
+                        </div>
+                        <!--Static Layout-->
+                        <div class="col">
+                            <a href="https://johnulbright.github.io/kastrecreation/"><div class="card" style="text-decoration: none;">
+                                <img src="../assets/kast.png" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Static Layout</h5>
+                                  <p class="card-text">This was an exercise in duplicating the appearance (if not functionality) of a website using HTML and CSS.  I chose to re-create the website <a href="https://www.kastapp.co/">kastapp.co</a></p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+                        <!--API #1-->
+                        <div class="col">
+                            <a href=""><div class="card" style="text-decoration: none;">
+                                <img src="../assets/under-construction-sign.png" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;background-color: teal;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">API #1</h5>
+                                  <p class="card-text">This is a placeholder until this project has been completed</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+                        <!--API #2-->
+                        <div class="col">
+                            <a href=""><div class="card" style="text-decoration: none;">
+                                <img src="../assets/under-construction-sign.png" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;background-color: teal;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">API #2</h5>
+                                  <p class="card-text">This is a placeholder until this project has been completed</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+                        <!--Blue Badge-->
+                        <div class="col">
+                            <a href=""><div class="card" style="text-decoration: none;">
+                                <img src="../assets/under-construction-sign.png" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;background-color: teal;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Blue Badge</h5>
+                                  <p class="card-text">This is a placeholder until this project has been completed</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+                        <!--Red Badge-->
+                        <div class="col">
+                            <a href=""><div class="card" style="text-decoration: none;">
+                                <img src="../assets/under-construction-sign.png" class="card-img-top" alt="..." style="border-radius: 13px 13px 0px 0px;background-color: teal;"></a>
+                                <div class="card-body">
+                                  <h5 class="card-title">Red Badge</h5>
+                                  <p class="card-text">This is a placeholder until this project has been completed</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Other-->
+        <div class="container-fluid" >
+            <div class="container" style="padding: 20px;background-color: transparent;" id="other">
+                <h1>Other Interests</h1>
+                <!--GeoGebra-->
+                <div class="accordion" style="border:none;border-radius: 15px; background-color: teal;">
+                    <div class="card" id='geogebra' style="border:none; background-color: transparent;">
+                        <div class="card-header" id="headingOne" style="border:none; background-color: transparent;">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="text-decoration: none;">
+                                    <h2 style="color:white;text-decoration: none;">
+                                        GeoGebra <img src="../assets/geogebra_logo.png" width="31px"></h2>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#other">
+                            <div class="card-body">
+                                <div class="row">
+
+                                    <div class='col'>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#addingfractions" id="notggb">
+                                            Adding Fractions - Visuals
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#brokenclock" id="notggb">
+                                            Broken Clock
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#cashregister" id="notggb">
+                                            Cash Register
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#foldabox" id="notggb">
+                                            Fold a Box
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#aboutgeogebra" id="notggb">
+                                            <img src="../assets/question-mark-line.png" width="40px">
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#fractionguesser" id="notggb">
+                                            Fraction Guesser
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#make" id="notggb">
+                                            Make a Linear Function
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#multiplyingfractions" id="notggb">
+                                            Multiplying Fractions
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#whatsthenumber" id="notggb">
+                                            What's the Number?
+                                        </button>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Woodworking-->
+                    <div class="card" id="woodworking" style="border:none; background-color: transparent;">
+                        <div class="card-header" id="headingTwo" style="border:none; background-color: transparent;">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-center collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo" style="text-decoration: none;">
+                                    <h2>Woodworking</h2>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#other">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-5" style="font-size: 20px;color:white">
+                                        <p>Woodworking has been a hobby of mine for the past 10 or so years. In a strong
+                                            parallel to coding, I enjoy the entire process of execution of woodworking
+                                            project, from initial design to construction to finishing. And of course the
+                                            satisfaction that comes from a job well done.</p>
+                                        <p>While I'm still very much an amateur compared to more accomplished woodworkers, I
+                                            have
+                                            at least gotten to the point where if I want a piece of furniture (or a
+                                            canoe),
+                                            I would rather build it than buy it.</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleCaptions" data-slide-to="0"
+                                                    class="active">
+                                                </li>
+                                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="../assets/canoe.jpeg" class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Cedar Strip Canoe</h5>
+
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/patio.jpeg" class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5 style="color:black">Outdoor sofas and table</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/game_table.jpeg" class="d-block w-100"
+                                                        alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Game table and benches</h5>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/coffee_table.jpeg" class="d-block w-100"
+                                                        alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Coffee table</h5>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleCaptions"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleCaptions"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--third item in list-->
+                    <div class="card" style="border:none; background-color: transparent;">
+                        <div class="card-header" id="headingThree" style="border:none; background-color: transparent;">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                    style="text-decoration: none;">
+                                    <h2>Collapsible Group Item #3</h2>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#other">
+                            <div class="card-body">
+                                <p>Here's some placeholder text.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--GeoGebra modal content-->
+                <div class="modal fade" id="aboutgeogebra" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="aboutgeogebra">About GeoGebra</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p><a href="https://www.geogebra.org/">GeoGebra</a> is a dynamic mathematics program
+                                    with
+                                    broad
+                                    international usage in math classrooms. There are many ways of using it, one of
+                                    which is
+                                    to
+                                    author interactive applets for teachers to use with their students. I have been
+                                    creating
+                                    and
+                                    sharing these with teachers from around the world since 2013. </p>
+                                <p>See <a href="https://geogebra.wayne.k12.in.us/">my website of GeoGebra resources</a>
+                                    for
+                                    my
+                                    entire library of applets, along with grade-level/content alignment and teaching
+                                    notes.
+                                    The
+                                    collection of applets available here is a quick sample of some of my more popular
+                                    work.
+                                    Each
+                                    of
+                                    these applets has been used by teachers and students over 10,000 times.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="addingfractions" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1037px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="addingfractions">Adding Fractions - Visuals</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Enter any two fractions to see their sum. Any mixed numbers must be entered as
+                                    improper
+                                    fractions.
+                                </p>
+                                <iframe scrolling="no" title="Adding Fractions - Visual"
+                                    src="https://www.geogebra.org/material/iframe/id/w3UQKuRN/width/1002/height/497/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="1002px" height="497px" style="border:0px" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="brokenclock" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1235px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="brokenclock">Broken Clock</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>What time is it? Take successive guesses and click "More information" to put the
+                                    pieces
+                                    back
+                                    on the
+                                    clock.</p>
+                                <iframe scrolling="no" title="Broken Clock (minutes on fives)"
+                                    src="https://www.geogebra.org/material/iframe/id/aeavjewf/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="1200px" height="550px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="cashregister" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1374px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cashregister">Cash Register</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Click "Start" then drag the coins onto the cash register to match the price of the
+                                    item.
+                                </p>
+                                <iframe scrolling="no" title="Cash Register"
+                                    src="https://www.geogebra.org/material/iframe/id/XrcJzWQV/width/1339/height/677/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="1339px" height="677px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="foldabox" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1271px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="foldabox">Fold a Box</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Adjust the dimesions of the box and the size of the corner squares. What patterns do
+                                    you
+                                    notice in the volume of the box?</p>
+                                <iframe scrolling="no" title="Fold a Box"
+                                    src="https://www.geogebra.org/material/iframe/id/k4h6nbsu/width/1236/height/636/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false"
+                                    width="1236px" height="636px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="fractionguesser" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1034px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="fractionguesser">Fraction Guesser</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>What fraction of the rectangle is shaded red?</p>
+                                <iframe scrolling="no" title="Fraction Guesser"
+                                    src="https://www.geogebra.org/material/iframe/id/fkwdnwpd/width/999/height/565/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="999px" height="565px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="make" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1028px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="make">Make a Linear Function</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Drag the digits to the table in a way that makes a linear function.</p>
+                                <iframe scrolling="no" title="Make a Linear Function"
+                                    src="https://www.geogebra.org/material/iframe/id/fSyAKM6y/width/993/height/516/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="993px" height="516px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="multiplyingfractions" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1035px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="multiplyingfractions">Multiplying Fractions</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Enter any to proper fractions to see them multiplied using an array approach.</p>
+                                <iframe scrolling="no" title="Multiply two proper fractions using an array approach."
+                                    src="https://www.geogebra.org/material/iframe/id/sFjPaTMn/width/1000/height/513/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="1000px" height="513px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="whatsthenumber" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content" style="width:1374px">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="whatsthenumber">What's the Number</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>A random number will be shown on the number line. Take successive guesses and click
+                                    the
+                                    "More
+                                    info"
+                                    button to see some helpful details.</p>
+                                <iframe scrolling="no" title="What's the number?"
+                                    src="https://www.geogebra.org/material/iframe/id/Af3APf3g/width/1339/height/561/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"
+                                    width="1339px" height="561px" style="border:0px;" allowfullscreen> </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact-->
+        <div class="container-fluid" id="contact">
+            <div class="container">
+                <h1>Contact</h1>
+                <div class="container" style=" background-color: rgba(128,128,128,.5);border-radius: 15px;">
+                    <script src="https://formspree.io/js/formbutton-v1.min.js" defer>
+                    </script>
+
+                    <form action="https://formspree.io/f/mgeplvbd" method="POST">
+                        <label>
+                            Your email:
+                            <input type="text" name="_replyto">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+
+                        <!-- your other form fields go here -->
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+
+
+    <!-- BOOTSTRAP SCRIPTS -->
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
