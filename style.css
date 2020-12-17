@@ -3,7 +3,29 @@ body {
     position: relative;
     
   }
+i{
+  color:rgba(255,255,255,.5);
+  font-size:2em;
+}
+.icon-list{
+  margin-left:auto; 
+  margin-right:0;
+}
 
+
+i:hover{
+  color:rgba(255,255,255,.75);
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top:-3px;
+  margin-bottom:-5px;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  list-style-type:none
+}
 .circle{
   position: relative;  
   width:10vw;
